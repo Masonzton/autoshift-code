@@ -366,6 +366,6 @@ void loop() {
     Serial1.write(currentGear);
   }
   currentGear=getCurrentGear();
-  //Serial.println(currentGear);
+  Serial.println(currentGear);
   delay(100);
 }
