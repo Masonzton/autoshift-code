@@ -9,7 +9,7 @@ void setup() {
   pinMode(13, OUTPUT);
   
   // The HC-06 defaults to 9600 according to the datasheet.
-  Serial1.begin(9600);
+  Serial1.begin(38400);
 }
 
 void loop() {
