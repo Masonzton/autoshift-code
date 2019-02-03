@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2019-01-18T20:42:22Z",
+        "CreationDate": "2019-01-25T18:45:03Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,7 +13,7 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "soic-8 breakout"
+            "ProjectId": "breakout board"
         },
         "Owner": "Nicholas Anselmo <nickanselmo912@gmail.com>"
     }
