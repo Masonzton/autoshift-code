@@ -266,6 +266,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
 UsedLibrary="libraries/my library 2.lbr"
 UsedLibrary="libraries/my library.lbr"
+UsedLibrary="libraries/we-transistor.lbr"
 UsedLibraryUrn="urn:adsk.eagle:library:101"
 
 [Win_1]

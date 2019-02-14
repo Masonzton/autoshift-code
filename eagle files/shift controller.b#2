@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -80,6 +80,9 @@
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="88.275028125" y1="62.278375" x2="44.01321875" y2="62.315096875" width="0.001" layer="41"/>
 <wire x1="6.35" y1="2.54" x2="90.17" y2="2.54" width="0.254" layer="20"/>
+<wire x1="90.17" y1="2.54" x2="105.41" y2="17.78" width="0.254" layer="20"/>
+<wire x1="105.41" y1="17.78" x2="105.41" y2="49.53" width="0.254" layer="20"/>
+<wire x1="105.41" y1="49.53" x2="92.71" y2="62.23" width="0.254" layer="20"/>
 <wire x1="92.71" y1="62.23" x2="40.64" y2="62.23" width="0.254" layer="20"/>
 <wire x1="6.35" y1="27.94" x2="6.35" y2="2.54" width="0.254" layer="20"/>
 <wire x1="6.35" y1="27.94" x2="40.64" y2="62.23" width="0.254" layer="20"/>
@@ -87,9 +90,6 @@
 <hole x="95" y="15" drill="4"/>
 <hole x="47.5" y="57.5" drill="4"/>
 <hole x="12.5" y="7.5" drill="4"/>
-<wire x1="90.17" y1="2.54" x2="100.33" y2="12.7" width="0.254" layer="20"/>
-<wire x1="100.33" y1="12.7" x2="100.33" y2="54.61" width="0.254" layer="20"/>
-<wire x1="100.33" y1="54.61" x2="92.71" y2="62.23" width="0.254" layer="20"/>
 </plain>
 <libraries>
 <library name="eagle-ltspice" urn="urn:adsk.eagle:library:217">
